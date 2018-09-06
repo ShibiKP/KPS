@@ -28,7 +28,7 @@ import com.google.gson.JsonObject;
 public class AutomationClient {
 
 	public static void main(String[] args) {
-			
+			System.out.println();
 		new AutomationClient().ToTakeFromXml();
 		
 		DefaultHttpClient client=new DefaultHttpClient();
